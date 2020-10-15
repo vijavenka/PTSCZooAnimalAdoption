@@ -1,0 +1,130 @@
+[
+  {
+    "description": "        using Cucumber",
+    "keyword": "Feature",
+    "name": "I am validating Zoo Animal Adoption",
+    "line": 1,
+    "id": "i-am-validating-zoo-animal-adoption",
+    "tags": [],
+    "uri": "features/zoopom.feature",
+    "elements": [
+      {
+        "id": "i-am-validating-zoo-animal-adoption;zoo-animal-adoption-scenario",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Zoo Animal Adoption scenario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinitions/hooks.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinitions/hooks.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I will navigate to Zoo adoption page",
+            "match": {
+              "location": "stepDefinitions/zoopom.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3394000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I will enter first page details",
+            "match": {
+              "location": "stepDefinitions/zoopom.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 268000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Second page details",
+            "match": {
+              "location": "stepDefinitions/zoopom.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 845000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Finally page details",
+            "match": {
+              "location": "stepDefinitions/zoopom.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 856000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinitions/hooks.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinitions/hooks.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

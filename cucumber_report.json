@@ -1,0 +1,247 @@
+[
+  {
+    "description": "        using Cucumber",
+    "keyword": "Feature",
+    "name": "I am validating Zoo Animal Adoption",
+    "line": 1,
+    "id": "i-am-validating-zoo-animal-adoption",
+    "tags": [],
+    "uri": "features/zoopom.feature",
+    "elements": [
+      {
+        "id": "i-am-validating-zoo-animal-adoption;zoo-animal-adoption-scenario",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Zoo Animal Adoption scenario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinitions/hooks.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinitions/hooks.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I will navigate to Zoo adoption page",
+            "match": {
+              "location": "stepDefinitions/zoopom.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4189000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I will enter first page details \"Blablabla\"",
+            "match": {
+              "location": "stepDefinitions/zoopom.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Second page details \"Select you Animal\", \"1\"",
+            "match": {
+              "location": "stepDefinitions/zoopom.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 630000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Finally page details \"Thank\"",
+            "match": {
+              "location": "stepDefinitions/zoopom.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 512000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinitions/hooks.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinitions/hooks.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "i-am-validating-zoo-animal-adoption;zoo-animal-adoption-scenario",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Zoo Animal Adoption scenario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinitions/hooks.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinitions/hooks.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I will navigate to Zoo adoption page",
+            "match": {
+              "location": "stepDefinitions/zoopom.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 443000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I will enter first page details \"Vijay\"",
+            "match": {
+              "location": "stepDefinitions/zoopom.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Second page details \"Select you Animal\", \"2\"",
+            "match": {
+              "location": "stepDefinitions/zoopom.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 388000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Finally page details \"Thank\"",
+            "match": {
+              "location": "stepDefinitions/zoopom.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 253000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinitions/hooks.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinitions/hooks.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
