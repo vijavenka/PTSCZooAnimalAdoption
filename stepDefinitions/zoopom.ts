@@ -25,4 +25,5 @@ Then('Second page details {string}, {string}', async(title, option)=> {
  
 Then('Finally page details {string}', async(title)=> {
   expect(await a_page.getTitleNameThirdPage()).to.contain(title);
+  console.log(await a_page.getTitleNameThirdPage());
 });
