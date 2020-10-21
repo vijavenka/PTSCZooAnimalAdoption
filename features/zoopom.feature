@@ -9,5 +9,5 @@ Feature: I am validating Zoo Animal Adoption
 
 Examples:
     | Name          | SecondPageTitle   | option  | ThirdPageTitle |
-    | Blablabla     | Select you Animal | 1       | Thank          |
+    | Blablabla     | Select you Animal1 | 1       | Thank          |
     | Vijay         | Select you Animal | 2       | Thank          |

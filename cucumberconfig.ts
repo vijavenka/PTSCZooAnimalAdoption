@@ -1,6 +1,12 @@
 import {Config, browser} from "protractor";
 import * as reporter from "cucumber-html-reporter";
 
+// To compile run tsc
+// To execute npm run cucumbertest
+// In package.json, cucumbertest is configure as 
+// "cucumbertest": "protractor JSFiles/cucumberconfig.js",
+// And it creates report with screenshot when there is any failure
+
 export let config: Config = {
     // The address of a running selenium server
     // seleniumAddress: 'http://localhost:4444/wd/hub',	// direct connect
